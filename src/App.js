@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import ShoppingList from './component/ShoppingList';
-import Clock from './component/Clock';
+import ShoppingList from './component/shoppingList';
+import Clock from './component/clock';
+import Counter from './component/counter';
 
 function App() {
   const Data={
@@ -19,6 +20,8 @@ function App() {
 
       {/*props는 부모 컴포넌트로부터 자식 컴포넌트에 값을 전달하기 위한 객체이다.*/}
       <ShoppingList name="쇼핑" address="인천시 남동구"/>
+      <Clock/>
+      <Counter/>
     </div>
   );
 }
