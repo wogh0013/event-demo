@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ShoppingList from './component/ShoppingList';
+import Clock from './component/Clock';
 
 function App() {
   const Data={
