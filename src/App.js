@@ -3,6 +3,8 @@ import './App.css';
 import ShoppingList from './component/shoppingList';
 import Clock from './component/clock';
 import Counter from './component/counter';
+import Input from './component/input';
+import Calculator from './component/Calculator';
 
 function App() {
   const Data={
@@ -13,6 +15,7 @@ function App() {
 
   return (
     <div>
+      <Input/>
       <h1>값을 저장하기-데이터 저장</h1>
       <p>{Data.headTitle}</p>
       <p>{Data.contentTitle}</p>
@@ -22,6 +25,7 @@ function App() {
       <ShoppingList name="쇼핑" address="인천시 남동구"/>
       <Clock/>
       <Counter/>
+      <Calculator/>
     </div>
   );
 }
